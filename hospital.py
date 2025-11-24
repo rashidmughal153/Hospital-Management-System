@@ -3,7 +3,7 @@ import time
 import datetime
 from tkinter import *
 from tkinter import messagebox
-from tkinter import ttk  # <-- ✅ Add this line
+from tkinter import ttk 
 import mysql.connector
 
 
@@ -478,3 +478,4 @@ class Hospital:
 root = Tk()
 ob = Hospital(root)
 root.mainloop()
+
